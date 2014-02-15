@@ -7,7 +7,7 @@ The `delegate_all` function will define `method_missing`, `responds_to?` and `pu
 
 ## Example
 
-```
+```ruby
 class DelegatorClass
   delegate_all :delegate_object
 
